@@ -1,0 +1,40 @@
+.login {
+    display: flex;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+
+        input {
+            margin-bottom: 20px;
+            background: #FFF;
+            box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+            height: 51px;
+            border: none;
+        }
+
+        label {
+            color: #3D3D3D;
+            font-family: Work Sans;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        button {
+            align-self: center;
+        }
+
+        a {
+            text-align: center;
+            margin-top: 20px;
+            color: black;
+        }
+    }
+}
